@@ -13,6 +13,8 @@ const subscriptionSchema = new Schema({
     }
 }, {timeseries: true})
 
+export const Subsciption = mongoose.model("Subscription", subscriptionSchema)
+
 
 
 
